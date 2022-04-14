@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Vegetarian Checker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Is it Vegetarian?</h1>
+
+		<!-- SEARCH -->
+		<!-- LABEL FOR BOX: Enter name of box -->
+		<label for="barcode">Enter a UPC barcode number (12-digits)</label>
+		<!-- INPUT BOX: Number only -->
+		<input type="number" id="barcode" name="barcode">
+		<!-- BUTTON INPUT -->
+		<button type="button" name="button">Get Value</button>
+		
+		<!-- PRODUCT IMAGE -->
+		<img id="prodImg" src="">
+		
+		<!-- PRODUCT NAME -->
+		<h2 id="prodName"></h2>
+
+		<!-- TABLE OF INFORMATION -->
+		<table id="ingredientTable">
+			<tr>
+				<th id="ingredientList">Ingredient</th>
+				<th id="vegStatus">Vegetarian?</th>
+			</tr>
+		</table>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
